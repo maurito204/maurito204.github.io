@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: #272727;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: #fff;
+    width: 247px;
+    height: 70px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+header img {
+    width: 164px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+header p {
+    color: #fff;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+    min-width: 250px;
+    max-width: 600px;
+}
+
+@media (max-width: 330px) {
+    header p {
+        color: #fff;
+        text-align: center;
+        font-size: 13px;
+        letter-spacing: 1px;
+        min-width: 250px;
+        max-width: 600px;
+        padding: 0px;
+    }
+}
+
+.vinculos {
+    margin-top: 40px;
+}
+
+.boton {
+    margin: 20px auto;
+    width: 85%;
+    height: 50px;
+    min-width: 250px;
+    max-width: 650px;
+    background: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.boton h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#boton1 {
+    background-image: url(background_amarillo.png);
+    border: none;
+    transition: all .3s;
+}
+/* 
+#boton1:hover { 
+    background-image: url(galaxy.png);
+}
+*/
+
+#boton1 h2{
+    color: #000;
+}
+
+.boton a {
+    text-decoration: none;
+}
+
+.boton a:hover {
+    text-decoration: underline;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redes a img{
+    width: 25px;
+    padding: 19px;
+    transition: all .5s;
+}
+
+.redes a img:hover {
+    opacity: 0.5;
+}
